@@ -95,7 +95,7 @@ picture > img {
 
 .perfume-name {
   font-family: var(--font-Fraunces);
-  font-size: 2.1rem;
+  font-size: 2rem;
 }
 
 .perfume-text {
@@ -141,14 +141,15 @@ picture > img {
 }
 
 .attribution {
+  margin: 0.4rem;
   font-family: var(--font-Monsterrat);
   font-size: 0.7rem;
   text-align: center;
 }
 
 @media (min-width: 600px) {
-    .container {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
